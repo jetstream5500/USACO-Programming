@@ -23,7 +23,7 @@ def distribute_money(fin, bank_accounts):
 				reciever = fin.readline().strip()
 				bank_accounts[reciever] += money/num_recievers
 
-def output_accounts(fin, bank_accounts):
+def output_accounts(fout, bank_accounts):
 	for name, balance in bank_accounts.items():
 		fout.write(name + " %d\n" % balance)
 
