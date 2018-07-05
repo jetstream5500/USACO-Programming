@@ -1,3 +1,0 @@
-Utilizes Scrambler:
-
-# Loops = 51
